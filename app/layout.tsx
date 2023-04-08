@@ -3,6 +3,8 @@ import React from 'react';
 import Sidebar from "./component/sidebar";
 import { personalData } from '../data/page-data';
 
+import "../styles/globals.css";
+
 export default function RootLayout({
   children,
 }: {
@@ -10,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head />
+      <head><title>Vadzim Voitkus CV</title></head>
       <body>
         <Sidebar data={personalData} />
         {children}

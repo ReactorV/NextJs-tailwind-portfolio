@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Page() {
   return (
-      <div>Page</div>
+      <div className="bg-green-light">Page</div>
   )
 }
