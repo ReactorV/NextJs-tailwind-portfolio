@@ -11,11 +11,11 @@ const Sidebar = ({ data }) => {
     <div className="bg-black flex flex-col h-screen content-between sm:justify-around sm:w-1/3 sm:fixed">
       <div className='text-white flex flex-col p-10'>
         <Image
-          className="rounded-full h-full mb-6"
+          className="rounded-full h-full"
           priority
           width={300}
           height={300}
-          src="/images/guy.jpg"
+          src="/images/myphotoA.jpg"
           alt="photo"
         />
         <h1>{name}</h1>
