@@ -13,9 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head><title>Vadzim Voitkus CV</title></head>
-      <body>
+      <body className='flex flex-col sm:flex-row'>
         <Sidebar data={personalData} />
-        {children}
+        <main className='grow-full p-16 w-full basis-2/3 bg-green ml-auto'>{children}</main>
       </body>
     </html>
   )
